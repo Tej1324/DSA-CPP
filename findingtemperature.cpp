@@ -1,26 +1,20 @@
 #include <iostream>
 using namespace std;
+#include <vector>
 
-int main();
+int main()
 {
-    int temp;
+  vector<int> vec;
+  cout << vec.size() << endl;
 
-    cout << "whats the temp today";
-    cin >> temp;
-    cout << "temp is :" << temp;
-    
-    for(int i = 1;i<=50;i++)
-    {
-      if(temp <= i){
-        cout << "A";
-      }
-      else{
-        cout << "B";
-      }
-    }
-    
+  vec.push_back(25);
+  cout << vec.size() << endl;
 
+  for(int x : vec){
+    cout << x << "";
+  }
 
+  cout << endl;
 
-  return 0;
+   return 0;
 }
