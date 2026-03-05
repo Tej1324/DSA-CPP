@@ -12,7 +12,7 @@ int main()
             for(int i=st;i<=end;i++){
                 cout << arr[i];
             }
-            cout <<" ";
+            cout <<" HELLO:";
         }
         cout << endl;
     }
