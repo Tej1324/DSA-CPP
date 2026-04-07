@@ -25,33 +25,79 @@ void reversearray(int arr[],int sz){
     }
 }
 
+void printnnumbers(int n){
+    
+    for(int i = 0;i<n;i++){
+        cout << i << endl;
+    }
+
+    return;
+
+    // int n;
+    
+    // cin >> n;
+    
+    // printnnumbers(n);
+
+    // return 0;
+}
+
+
+void selectionsort(int arr[],int n){
+
+    for(int i = 0;i<=n-2;i++){
+        int mini = i;
+        for(int j = i;j<=n-1;j++){
+            if(arr[j] < arr[mini]){
+                mini = j;
+            }
+        }
+        int temp = arr[mini];
+        arr[mini] = arr[i];
+        arr[i] = temp;
+    }
+
+
+    // int n;
+    // cin >> n;
+
+    // int arr[n];
+    // for(int i = 0;i<n;i++) cin >> arr[i];
+    // sort(arr,n);
+    // for(int i = 0;i<n;i++){
+    // cout << arr[i] << " ";
+    // }
+    // return 0;
+    
+}
+
+
+void bubble_sort(int arr[],int n){
+    int temp = 0;
+    for(i = 0;i < n;i++){
+        for(j = i;j < n;j++){
+            if(arr[i] < arr)
+        }
+    }
+}
+
 
 int main(){
-    // int arr[] = {4,1,4,56,4,32,5,7,54,234,565,34};
-    // int sz = 12;
-    // // int target = 32;
-    // reversearray(arr,sz);
 
-    // for(int i=0;i<sz;i++){
-    //     cout << arr[i] << " "<< endl;
-    // }
-    // // cout << linearsearch(arr, sz, target) << endl;
-    // return 0;
-    int n = 5;
-    int arr[n] = {1,-2,3,4,-5};
+    int n;
+    cin >> n;
 
-    int maxSum = INT_MIN;
+    int arr[n];
 
-    for(int st = 0;st < n;st++){
-        int currSum = 0;
-        for(int end = st;end < n;end++){
-            
-            currSum += arr[end];
-            maxSum = max(currSum,maxSum);
-
-        }
-        
+    for(int i = 0;i < n;i++) {
+        cin >> arr[i];
     }
-    cout << maxSum << endl;
-    return 0;
+
+    bubble_sort(arr,n);
+
+    for(i = 0;i<n;i++){
+        cout << arr[i] << endl;
+    }
+
+
 }
