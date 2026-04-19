@@ -13,5 +13,4 @@ int factorialN(int n){
 int main(){
     cout << factorialN(5) << endl;
     return 0;
-
 }
