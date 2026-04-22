@@ -13,7 +13,6 @@ int main()
   for(int x : vec){
     cout << x << "";
   }
-
   cout << endl;
 
    return 0;
