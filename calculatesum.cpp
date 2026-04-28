@@ -9,7 +9,6 @@ int calSum(int n){
         sum += i;
     }
     return sum;
-
 }
 
 int main(){
