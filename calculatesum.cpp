@@ -10,7 +10,6 @@ int calSum(int n){
     }
     return sum;
 }
-
 int main(){
     cout << calSum(10) << endl;
     cout << calSum(57648) << endl;
