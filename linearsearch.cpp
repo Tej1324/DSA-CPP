@@ -11,7 +11,6 @@ int linearsearch(int arr[],int sz,int target){
             return arr[i];
         }
     }
-
     return -1;
 }
 
