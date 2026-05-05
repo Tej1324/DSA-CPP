@@ -23,7 +23,6 @@ void reversearray(int arr[],int sz){
         end--;
     }
 }
-
 void printnnumbers(int n){
     
     for(int i = 0;i<n;i++){
