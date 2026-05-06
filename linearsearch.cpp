@@ -13,7 +13,6 @@ int linearsearch(int arr[],int sz,int target){
     }
     return -1;
 }
-
 void reversearray(int arr[],int sz){
     int start = 0;
     int end = sz - 1;
