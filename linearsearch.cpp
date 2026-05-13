@@ -4,7 +4,6 @@ using namespace std;
 #include <climits>
 #include <algorithm>
 
-
 int linearsearch(int arr[],int sz,int target){
     for(int i = 0;i < sz;i++){
         if(arr[i] == target){
