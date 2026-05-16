@@ -7,6 +7,7 @@ int main()
   vector<int> vec;
   cout << vec.size() << endl;
 
+
   vec.push_back(25);
   cout << vec.size() << endl;
 
