@@ -21,6 +21,7 @@ void reversearray(int arr[],int sz){
         start++;
         end--;
     }
+    
 }
 void printnnumbers(int n){
     
