@@ -3,6 +3,7 @@ using namespace std;
 #include <vector>
 
 int main()
+
 {
   vector<int> vec;
   cout << vec.size() << endl;
