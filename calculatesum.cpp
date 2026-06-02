@@ -9,6 +9,7 @@ int calSum(int n){
         sum += i;
     }
     return sum;
+    
 }
 int main(){
     cout << calSum(10) << endl;
