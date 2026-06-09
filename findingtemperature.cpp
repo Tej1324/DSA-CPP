@@ -12,6 +12,7 @@ int main()
   cout << vec.size() << endl;
   
   for(int x : vec){
+    
     cout << x << "";
   }
   cout << endl;
